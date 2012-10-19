@@ -1,11 +1,7 @@
 var juiRoot = __dirname + '/node_modules/jquery-ui/',
 	config = {
 		ns: 'jui',
-		filename: __filename,
-		scripts: {
-			jquery: require('./jquery-1.8.2.js'),
-	  	ui: require('./ui')
-		}
+		filename: __filename
 };
 
 module.exports = jui;
